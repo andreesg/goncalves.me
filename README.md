@@ -1,4 +1,5 @@
-<h1>goncalves.me</h1>
+<h1><a href="http://goncalves.me/">goncalves.me</a></h1>
+<small>What i'm testing right now, responsiveness between large and small:  <a href="http://goncalves.me/test2.html">try to resize it or browse it between desktop and mobile.</a></small>
 <ul>
 	<li>I'm exploring responsive front-end with Foundation framework. Responsive for retina, xlarge, large, medium and small screens. </li>
 	<li>I'll try AngularJS + Socket.io and NodeJS to make a cool "Live Chat" enabling customers to communicate with me live (I will also develop the mobile application to answer the messages, live, in Steroids.js for sure).</li>
