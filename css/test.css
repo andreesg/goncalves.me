@@ -1,3 +1,5 @@
+
+/* Define font name */
 @font-face
 {
   font-family: dejavu;
@@ -13,13 +15,14 @@
 body {
   background-color: #e1dcda;
 }
+
 h1 {
   font-family: dejavu;
-  font-size: 24px;
+  font-size: 1.500em;
 }
 h2 {
   font-family: dejavu;
-  font-size: 16px;
+  font-size: 1.000em;
 }
 
 input[type="text"] {
@@ -39,12 +42,12 @@ textarea {
   height: 469px;
 }
 
-#img_titles {
+#img-description {
   font-family: dejavu;
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
-#src_img {
+#img-src {
   cursor: pointer;
 }
 a:link {
@@ -93,9 +96,13 @@ a:active{
 }
 
 #title:hover, #title:focus {
-    border-bottom: dotted 1px #222222;
+    border-bottom: dotted 1px #0077e9;
     color: #222222; 
     cursor:help;
+}
+
+#author-title:hover {
+  cursor:help;
 }
 
 #header-wrapper {
@@ -114,6 +121,3 @@ a:active{
   font-family: dejavu;
   color:#0077e9;
 }
-
-
-
