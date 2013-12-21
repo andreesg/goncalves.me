@@ -17,15 +17,18 @@ mouseout = function(link) {
 /* 
   Global var's 
 */
-var timer = null;
-
 /* Dictionary to get images descriptions */
 var description = {
   '1': '/ entrepreneur',
   '2': '/ hairy',
   '3': '/ thinker',
-  '4': '/ fish allergic'
+  '4': '/ fish allergic',
+  'total': 4
 }
+
+var timer = null, counter = 0;
+var total = description.total;
+
 
 /* 
   ON DOM ready 
@@ -42,7 +45,6 @@ $(document).ready(function() {
   $('#img-src').hover(function() {
     var $img = $(this);
     $(function() {
-      var total = 4, counter = 0;
       timer = setInterval(showimage, 1000);
 
       /* function to show image at 1000ms */
