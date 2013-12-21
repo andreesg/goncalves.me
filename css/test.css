@@ -1,0 +1,102 @@
+body {
+  background-color: #e1dcda;
+}
+h1 {
+  font-family: "menlo";
+  font-size: 24px;
+}
+h2 {
+  font-family: "menlo";
+  font-size: 16px;
+}
+
+input[type="text"] {
+  font-family: 'menlo';
+}
+
+textarea {
+  font-family: 'menlo'
+}
+
+.button {
+  font-family: 'menlo';
+}
+
+.slider {
+  width: 365px;
+  height: 469px;
+}
+
+#img_titles {
+  font-family: "menlo";
+  font-size: 14px;
+}
+
+#src_img {
+  cursor: pointer;
+}
+a:link {
+  color:#222222;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#222222;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#222222;
+  text-decoration: none;
+}
+
+a:active{
+  color:#222222;
+  text-decoration: none;
+}
+
+#name_details {
+  display:none;
+  font-size:14px;
+  line-height: 1.2;
+  font-family: "menlo";
+  color:#939597;
+}
+
+#selected-works {
+  margin-top: 2.188rem;
+}
+
+#title {
+  border-bottom: dotted 1px #939597;
+}
+
+#title-title {
+  
+}
+
+#title:hover, #title:focus {
+    border-bottom: dotted 1px #222222;
+    color: #222222; 
+    cursor:help;
+}
+
+#header-wrapper {
+  height: 3.333em;
+}
+
+#content-wrapper {
+  margin-top: 1.667em;
+}
+
+#details-wrapper {
+  margin-top: 0.4em;
+}
+
+.small-description {
+  font-family: "menlo";
+  color:#0077e9;
+}
+
+
+
