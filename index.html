@@ -5,100 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>André Gonçalves</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/test.css" />
     <script src="js/modernizr.js"></script>
     
   </head>
   <body>
-    
-    <div class="row">
+    <div class="row hide-for-small" id="header-wrapper">
       <div class="large-12 columns">
-        <h1></h1>
-      </div>
-    </div>
-
-    <div class="row" style="margin-top:60px;">
-      <div class="large-6 columns" id="details">
         
-        <div class="row">
-          <div class="large-9 medium-3 columns"></div>
-          <div class="large-9 medium-9 columns hide-for-small">
-              <img src="img/1.png" id="src_img"/>
-          </div>
-
-        </div>
-        <div class="row">
-            <div class="large-3 medium-3 columns"></div>
-            <div class="large-9 medium-9 columns hide-for-small">
-              <span id="img_titles"></span>
-            </div>
-            <div class="large-9 medium-9 columns show-for-small hide-for-large small-details">
-              
-            </div> 
-        </div>
-      
-            
-      </div>
-      <div class="large-6 columns" id="details" style="margin-top:50px;display:none;" id="contact">
-          <div class="large-12 colums" style="padding:13px;">
-            <h1><strong>Let's talk!</strong></h1>
-            
-          </div>
-          <div class="large-6 small-6 columns">
-
-          <input type="text" placeholder="Name"/>
-        </div>
-        <div class="large-6 small-6 columns">
-          <input type="text" placeholder="Email" />
-        </div>
-        <div class="large-12 small-12 columns">
-          <textarea placeholder="Message" style="height:100px;"></textarea>
-          <a href="#" class="button" style="color:white;">send</a>
-        </div>
-
-      </div>
-      <div class="large-6 columns" style="margin-top:55px;">
-        <div class="row">
-          <div class="large-6 columns">
-            <div id="author-links">
-            <h1>
-              
-                <span id="title"><strong>André<br>Gonçalves</strong></span>
-              
-            </h1>
-           
-            <p>
-              <h2><a href="mailto:andre@goncalves.me" target="_blank"><font color="#0077e9">/ </font>andre@goncalves.me</a><h2>
-              <h2><a href="http://linkedin.com/in/andreesg" target="_blank" onmouseover="_mouse_over(this)" onmouseout="_mouse_out(this)" rel="linkedin">linkedin</a><h2>
-              <h2><a href="https://twitter.com/andreesg" target="_blank" onmouseover="_mouse_over(this)" onmouseout="_mouse_out(this)" rel="twitter">twitter</a><h2>
-            </p>
-            </div>
-            <div id="selected-works">
-            <h1><strong>Selected<br>Works</strong></h1>
-            <p>
-            <h2><a href="http://sperobox.com" onmouseover="mouse_over(this)" onmouseout="mouse_out(this)" rel="sperobox.com">sperobox.com</a><h2>
-            <h2><a href="http://www.esporao.com/mapas/" target="_blank" onmouseover="mouse_over(this)" onmouseout="mouse_out(this)" rel="esporao.com">esporao.com</a></h2>
-            <h2><a href="http://www.academica.pt" target="_blank" onmouseover="mouse_over(this)" onmouseout="mouse_out(this)" rel="academica.pt">academica.pt</a></h2>
-            </p>
-            </div>
-          </div>
-          <div class="large-6 columns" style="display:none;" id="name_details">
-            Hi,<br>my name is André Gonçalves and I'm a Software Engineer that is really into develop, architect and engaging high quality, world class Web content for desktop and mobile devices!
-          </div>
-        </div>
-        <div class="row" style="margin-top:20px;">
-          <div class="large-6 columns">
-            
-          </div>
-        </div>
       </div>
     </div>
 
+    <div class="large-9 small-centered large-centered columns" id="centered-content">
+      <div class="row" id="centered-row">
+
+        <!-- 
+          Content Images 
+        -->
+        <div class="large-6 medium-6 columns hide-for-small" id="img-titles-wrapper">
+            <div class="row">
+               <img src="img/1.png" id="src_img" class="right"/>
+            </div>
+            <div class="row" id="titles-wrapper">
+              <div class="large-4 columns"></div> <!-- Needs FIX -->
+              <div class="large-8 columns"> <!-- Image titles -->
+                <span id="img_titles"></span>
+              </div> <!-- #titles-wrapper -->
+            </div>
+        </div> <!-- #img-titles-wrapper -->
+
+        <!-- 
+          Content 
+        -->
+        <div class="large-6 medium-6 columns" id="content-wrapper">
+          <div class="large-6 medium-12 columns">
+            <div id="author-links">
+              <!-- Tweak for small -->
+              <div class="show-for-small small-description">Hi,<br>My name is</div>
+              <!-- title for large - medium -->
+              <div id="author-title" class="hide-for-small">
+                <h1>
+                  <span id="title">André<br>Gonçalves</span>  
+                </h1>
+              </div>
+              <!-- title for small - no border-buttom -->
+              <div id="author-title" class="show-for-small">
+                <h1>
+                  <span id="title-small">André<br>Gonçalves</span>  
+                </h1>
+              </div>
+              <!-- Tweak for small -->
+              <div class="show-for-small small-description">and i'm fucking awesome</div>
+              <p>
+                <h2><a href="mailto:andre@goncalves.me" target="_blank"><font color="#0077e9">/ </font>andre@goncalves.me</a><h2>
+                <h2><a href="http://linkedin.com/in/andreesg" target="_blank" onmouseover="_mouse_over(this)" onmouseout="_mouse_out(this)" rel="linkedin">linkedin</a><h2>
+                <h2><a href="https://twitter.com/andreesg" target="_blank" onmouseover="_mouse_over(this)" onmouseout="_mouse_out(this)" rel="twitter">twitter</a><h2>
+              </p>
+            </div> <!-- #author-links -->
+
+            <div id="selected-works">
+              <h1><span id="selected-works-title">Selected<br>Works</span></h1>
+              <p>
+                <h2><a href="http://sperobox.com" onmouseover="mouse_over(this)" onmouseout="mouse_out(this)" rel="sperobox.com">sperobox.com</a><h2>
+                <h2><a href="http://www.esporao.com/mapas/" target="_blank" onmouseover="mouse_over(this)" onmouseout="mouse_out(this)" rel="esporao.com">esporao.com</a></h2>
+                <h2><a href="http://www.academica.pt" target="_blank" onmouseover="mouse_over(this)" onmouseout="mouse_out(this)" rel="academica.pt">academica.pt</a></h2>
+              </p>
+            </div> <!-- #selected-works -->
+          </div> 
+          
+          <div class="large-6 columns show-for-large-only" id="details-wrapper">
+            <div id="name_details">
+              Hi,<br>my name is André Gonçalves and I'm a Software Engineer that is really into develop, architect and engaging high quality, world class Web content for desktop and mobile devices!
+            </div> <!-- #name_details -->
+          </div> <!-- #details-wrapper -->
+
+        </div> <!-- #content-wrapper -->
+      </div> <!-- #centered-row -->
+    </div> <!-- #centered-content -->
+    
+    <!-- included js tools -->
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.tooltip.js"></script>
-     <script src="js/main.js"></script>
-     <script >
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    
+    <!-- foundation start -->
+    <script>
       $(document).foundation();
     </script>
   </body>

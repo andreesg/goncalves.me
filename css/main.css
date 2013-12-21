@@ -1,25 +1,37 @@
+@font-face
+{
+  font-family: dejavu;
+  src: url(../fonts/ttf/DejaVuSansMono.ttf);
+}
+
+@font-face
+{
+  font-family: dejavubold;
+  src: url(../fonts/ttf/DejaVuSansMono-Bold.ttf);
+}
+
 body {
   background-color: #e1dcda;
 }
 h1 {
-  font-family: "menlo";
+  font-family: dejavu;
   font-size: 24px;
 }
 h2 {
-  font-family: "menlo";
+  font-family: dejavu;
   font-size: 16px;
 }
 
 input[type="text"] {
-  font-family: 'menlo';
+  font-family: dejavu;
 }
 
 textarea {
-  font-family: 'menlo'
+  font-family: dejavu;
 }
 
 .button {
-  font-family: 'menlo';
+  font-family: dejavu;
 }
 
 .slider {
@@ -28,7 +40,7 @@ textarea {
 }
 
 #img_titles {
-  font-family: "menlo";
+  font-family: dejavu;
   font-size: 14px;
 }
 
@@ -59,7 +71,7 @@ a:active{
   display:none;
   font-size:14px;
   line-height: 1.2;
-  font-family: "menlo";
+  font-family: dejavu;
   color:#939597;
 }
 
@@ -69,10 +81,15 @@ a:active{
 
 #title {
   border-bottom: dotted 1px #939597;
+  font-family: dejavubold;
 }
 
-#title-title {
-  
+#selected-works-title {
+  font-family: dejavubold;
+}
+
+#title-small {
+  font-family: dejavubold;
 }
 
 #title:hover, #title:focus {
@@ -85,13 +102,17 @@ a:active{
   height: 3.333em;
 }
 
-#content-wrapper, #details-wrapper {
+#content-wrapper {
   margin-top: 1.667em;
 }
 
+#details-wrapper {
+  margin-top: 0.4em;
+}
+
 .small-description {
-  font-family: "menlo";
-  color:#939597;
+  font-family: dejavu;
+  color:#0077e9;
 }
 
 
