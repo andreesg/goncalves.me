@@ -49,18 +49,14 @@ $(document).ready(function() {
 
       /* function to show image at 1000ms */
       function showimage() {
-        if (counter == 0) {
-          counter++;
-          return;
-        }
 
         /* Change image src and update image description */
-        $img.attr('src', 'img/' + (counter) + ".png").ready(function() {
-          $("#img-description").html(description['' + (counter)]);
+        $img.attr('src', 'img/' + (counter+1) + ".png").ready(function() {
+          $("#img-description").html(description['' + (counter+1)]);
         });
 
         /* keep looping */
-        if (counter == total) {
+        if (counter+1 == total) {
           counter = 0;
         } else {
           counter++;
