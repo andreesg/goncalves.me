@@ -7,5 +7,5 @@
 
 <h5>What i'm testing right now</h5>
 <ul>
-	<li>responsiveness between large and small:  <a href="http://goncalves.me/goncalves.me/test2.html">try to resize it or browse it between desktop and mobile.</a></li>
+	<li>responsiveness between large and small:  <a href="http://goncalves.me">try to resize it or browse it between desktop and mobile.</a></li>
 </ul>
