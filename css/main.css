@@ -120,4 +120,5 @@ a:active{
 .small-description {
   font-family: dejavu;
   color:#0077e9;
+  line-height: 1.3em;
 }
