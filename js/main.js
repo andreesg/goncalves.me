@@ -26,7 +26,7 @@ var description = {
   'total': 4
 }
 
-var timer = null, counter = 0;
+var timer = null, counter = 2;
 var total = description.total;
 
 
