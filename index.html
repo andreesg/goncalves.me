@@ -74,9 +74,9 @@
               <div class="show-for-small small-description">and I'm a Software Engineer that is really into develop and engaging great Web content for desktop and mobile devices!</div>
               <p>
                 <h2><a href="mailto:andre@goncalves.me" target="_blank"><font color="#0077e9">/</font>&nbsp;andre@goncalves.me</a><h2>
-                <h2><a href="http://linkedin.com/in/andreesg" target="_blank" onmouseover="mouseover(this, false)" onmouseout="mouseout(this)" rel="linkedin">linkedin</a><h2>
-                <h2><a href="https://twitter.com/andreesg" target="_blank" onmouseover="mouseover(this, false)" onmouseout="mouseout(this)" rel="twitter">twitter</a><h2>
-                  <h2><a href="https://github.com/andreesg" target="_blank" onmouseover="mouseover(this, false)" onmouseout="mouseout(this)" rel="github">github</a><h2>
+                <h2><a href="http://linkedin.com/in/andreesg" target="_blank" class="personal-url" rel="linkedin">linkedin</a><h2>
+                <h2><a href="https://twitter.com/andreesg" target="_blank" class="personal-url" rel="twitter">twitter</a><h2>
+                <h2><a href="https://github.com/andreesg" target="_blank" class="personal-url" rel="github">github</a><h2>
               </p>
               
             </div> <!-- #author-links -->
@@ -84,10 +84,10 @@
             <div id="selected-works">
               <h1><span id="selected-works-title">Selected<br>Works</span></h1>
               <p>
-                <h2><a href="http://atlassen.hetscheepvaartmuseum.nl/" target="_blank" onmouseover="mouseover(this, true)" onmouseout="mouseout(this)" rel="the atlassen">the atlassen</a></h2>
-                <h2><a href="http://sperobox.com" onmouseover="mouseover(this, true)" onmouseout="mouseout(this)" rel="sperobox.com">sperobox.com</a><h2>
-                <h2><a href="http://www.goncalves.me/herdade/" target="_blank" onmouseover="mouseover(this, true)" onmouseout="mouseout(this)" rel="esporao.com">esporao.com</a></h2>
-                <h2><a href="http://www.academica.pt" target="_blank" onmouseover="mouseover(this, true)" onmouseout="mouseout(this)" rel="academica.pt">academica.pt</a></h2>
+                <h2><a href="http://atlassen.hetscheepvaartmuseum.nl/" target="_blank" class="selected-work" rel="the atlassen" >the atlassen</a></h2>
+                <h2><a href="http://sperobox.com" class="selected-work" rel="sperobox.com">sperobox.com</a><h2>
+                <h2><a href="http://www.goncalves.me/herdade/" target="_blank" class="selected-work" rel="esporao.com">esporao.com</a></h2>
+                <h2><a href="http://www.academica.pt" target="_blank" class="selected-work" rel="academica.pt">academica.pt</a></h2>
               </p>
             </div> <!-- #selected-works -->
           </div> 
@@ -104,10 +104,12 @@
     
     <!-- included js tools -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+
     <!-- main js -->
-    <!--<script src="js/main.js"></script>-->
-    <script src="js/c050514.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--<script src="js/c050514.js"></script>-->
     
     <!-- foundation start -->
     <script>
