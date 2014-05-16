@@ -18,11 +18,24 @@ body {
 
 h1 {
   font-family: dejavu;
-  font-size: 1.500em;
+  font-size: 24px;
 }
 h2 {
   font-family: dejavu;
   font-size: 1.000em;
+}
+.news {
+  border-bottom: 1px solid #0077e9; 
+}
+
+.img-news-wrapper {
+  padding-right: 25%;
+}
+
+.news-text-description {
+  font-family: dejavu;
+  font-size: 12px;
+  line-height: 1.05em;
 }
 
 input[type="text"] {
@@ -49,6 +62,7 @@ textarea {
 
 #img-src {
   cursor: pointer;
+  margin-right: 24px;
 }
 a:link {
   color:#222222;
@@ -70,20 +84,12 @@ a:active{
   text-decoration: none;
 }
 
-#name_details {
-  display:none;
-  font-size:14px;
-  line-height: 1.2;
-  font-family: dejavu;
-  color:#939597;
-}
-
 #selected-works {
   margin-top: 2.188rem;
 }
 
 #title {
-  border-bottom: dotted 1px #939597;
+  /*border-bottom: dotted 1px #939597;*/
   font-family: dejavubold;
 }
 
@@ -91,19 +97,23 @@ a:active{
   font-family: dejavubold;
 }
 
+.bold {
+  font-family: dejavubold;
+}
+
 #title-small {
   font-family: dejavubold;
 }
 
-#title:hover, #title:focus {
+/*#title:hover, #title:focus {
     border-bottom: dotted 1px #0077e9;
     color: #222222; 
     cursor:help;
-}
+}*/
 
-#author-title:hover {
+/*#author-title:hover {
   cursor:help;
-}
+}*/
 
 #header-wrapper {
   height: 3.333em;
@@ -114,7 +124,6 @@ a:active{
 }
 
 #details-wrapper {
-  margin-top: 0.4em;
 }
 
 .small-description {
