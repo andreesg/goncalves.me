@@ -132,3 +132,9 @@ a:active{
   color:#0077e9;
   line-height: 1.3em;
 }
+
+.project-description a {
+  color: #6f6f6f;
+  text-decoration: underline;
+}
+
