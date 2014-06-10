@@ -15,7 +15,6 @@ var app = {
   },
 
   showImage: function() {
-    //console.log("show image");
     /* Change image src and update image description */
     $("#img-src").attr('src', 'img/' + (app.counter + 1) + ".png").ready(function() {
       $("#img-description").html(app.description['' + (app.counter + 1)]);
@@ -30,7 +29,6 @@ var app = {
   },
 
   imageAction: function() {
-    console.log("imageaction");
     /* function to show image at 1000ms */
     app.timer = setInterval(app.showImage, 1000);  
   },
@@ -60,7 +58,6 @@ var app = {
 
     this.image.hover(self.imageAction, function() {
       /* mouse out of image */
-      console.log("mouseout");
       if (app.timer) {
         clearInterval(app.timer);
         app.timer = null;
