@@ -7,7 +7,7 @@ var app = {
     'total': 4
   },
   timer: null,
-  counter: 1,
+  counter: 3,
   image: $("#img-src"),
 
   init: function() {
@@ -29,6 +29,11 @@ var app = {
   },
 
   imageAction: function() {
+    if (app.counter == 0) {
+      $("#img-description").html(app.description['' + (app.counter + 4)]);
+    } else {
+      $("#img-description").html(app.description['' + (app.counter)]);
+    }
     /* function to show image at 1000ms */
     app.timer = setInterval(app.showImage, 1000);  
   },
@@ -48,13 +53,6 @@ var app = {
     }, function() {
       $(this).html($(this).attr("rel"));
     });
-
-    /* Author title hover to show details */
-    /*$("#author-title").hover(function() {
-      $("#name_details").fadeIn();
-    }, function() {
-      $("#name_details").fadeOut();
-    });*/
 
     this.image.hover(self.imageAction, function() {
       /* mouse out of image */
